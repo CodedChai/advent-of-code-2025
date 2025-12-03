@@ -58,7 +58,6 @@ fun main() {
       }
     }
 
-
     return invalidIdSum
   }
 
