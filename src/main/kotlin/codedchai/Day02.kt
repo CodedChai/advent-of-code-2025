@@ -1,3 +1,5 @@
+package codedchai
+
 fun main() {
   fun part1(): Long {
     val inputLines = readInput("Day02")

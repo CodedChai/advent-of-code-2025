@@ -1,3 +1,5 @@
+package codedchai
+
 data class Grid<T>(
   val coordinatesToValues: HashMap<Vec2, T>,
 ) {

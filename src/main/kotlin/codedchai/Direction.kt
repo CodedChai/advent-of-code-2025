@@ -1,3 +1,5 @@
+package codedchai
+
 enum class Direction(val movementVec2: Vec2) {
   RIGHT(Vec2(1, 0)),
   LEFT(Vec2(-1, 0)),

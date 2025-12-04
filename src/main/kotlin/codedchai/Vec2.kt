@@ -1,3 +1,5 @@
+package codedchai
+
 import kotlin.math.abs
 
 data class Vec2(
@@ -47,5 +49,9 @@ data class Vec2(
 
   fun manhattanDistance(other: Vec2): Long {
     return abs(x - other.x) + abs(y - other.y)
+  }
+
+  fun adjacentNeighbors(): List<Vec2> {
+    return Direction.entries.map { this + it }
   }
 }

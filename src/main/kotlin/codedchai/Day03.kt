@@ -1,3 +1,5 @@
+package codedchai
+
 import kotlin.math.pow
 
 fun main() {

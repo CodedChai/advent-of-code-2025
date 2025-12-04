@@ -1,3 +1,5 @@
+package codedchai
+
 enum class SafeKnobDirection {
   L,
   R,
