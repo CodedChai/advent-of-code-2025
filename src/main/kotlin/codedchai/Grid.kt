@@ -21,6 +21,10 @@ data class Grid<T>(
     return coordinatesToValues[vec2]
   }
 
+  operator fun set(vec2: Vec2, value: T) {
+    coordinatesToValues[vec2] = value
+  }
+
   fun get(x: Long, y: Long): T? {
     return get(Vec2(x, y))
   }
